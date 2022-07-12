@@ -10,9 +10,9 @@
 </head>
 <body>
     <header>
-		<a href="#" class="logo">
+		<a href="../index.html" class="logo">
             <img src="../images/logoPrueba.png" alt="logo de la compañia" class="logo-img">
-        <h2 class="VaTour"></h2>Nombre de la compañia</h2>
+        <h2 class="VaTours"></h2>Nombre de la compañia</h2>
 
         <nav>
             <ul>
@@ -34,45 +34,67 @@
             </ul>
         </nav>  
       </header>     
-      <section>
-		<h1>CONTACTO</h1>
-	</section>
-	<!-- formulario de contacto -->
-	<section>
-		<article>
-			<form action="#">
-				<input type="text" placeholder="NOMBRE Y APELLIDO"><br>
-				<label for="email">Email:
-					<input type="email" placeholder="aaa@gmail.com" name="email"><br>
-				</label>
-				<label for="Observaciones"> Observaciones:<br>
-					<textarea placeholder="Observaciones"></textarea>
-				</label> <br>
-				<input type="number" placeholder="EDAD"><br>
-				<div><p>Elegí un continente:</p>
-					<div>Americano
-						<input type="radio" name="continente" value="Americano">
-					</div>
-					<div>Europeo
-						<input type="radio" name="continente" value="Europeo">
-					</div>
-				</div>
-				<p>Que letra te gusta mas?</p>
-				<select name="letra" id="letra"> 
-					<option value="x">X</option>
-					<option value="y">Y</option>
-					<option value="z">Z</option>
-				</select>
-				<div>Queres recibir info sobre nosotros?
-				<input type="checkbox" name="acepta" value="1"></div>
-				<input type="submit" value="ENVIAR INFORMACION">
-				<input type="reset" value="BORRAR">
-			</form>
-		</article>
-	</section>
-      <footer>
 
-      </footer>
+		<main>
+			<div class="contactoEncabezado">
+				<b></b>            
+				<h3>¡Contactate con nosotros!</h3>
+				<b></b>
+			</div>
+		  <section class="contactoSeccion">
+	
+			<p class="contenido__encabezado--parrafo">
+				Envianos tu consulta o dudas y te responderemos lo mas pronto posible
+			</p>
+		  </section>
+
+		  <!-- Formulario -->
+	
+		  <div class="containerFormularioGeneral">
+			<form action="" class="formularioColumnas">
+			  <div class="formularioColumna1">
+				<label for="nombre">Nombre</label>
+				<br>
+				<label for="correo">Correo</label>
+				<br>
+				<label for="continente">Continente</label>
+				<br>
+				<label for="mensaje">Mensaje</label>
+				
+			  </div>
+			  <div class="formularioColumna2">
+				<input type="text" id="name" name="nombre" placeholder="Escribe tu nombre">
+				<input type="text" id="correo" name="correo" placeholder="Escribe tu correo">
+				<select id="continente" name="Continente">
+				  <option value="Americano">Americano</option>
+				  <option value="Europeo">Europeo</option>
+				  <option value="Otro">Otro</option>
+				</select>
+				<textarea id="mensaje" name="mensaje" placeholder="Consulta" style="height: 200px"></textarea>
+				<input type="submit" value="Enviar">
+			  </div>
+			</form>
+			<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d821.1698970758373!2d-58.40320932398017!3d-34.58697311617163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x95bcca9c5c6916eb%3A0x450ef558437a7a53!2sAustria%202233%2C%20C1425EGK%20CABA!3m2!1d-34.5870666!2d-58.402589199999994!5e0!3m2!1ses!2sar!4v1657403755043!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		  </div>
+		</main>
+
+		<footer class="footer">
+			<div class="footerDerechos">
+			  <h6>VaTours 2022 - Todos los derechos reservados</h6>
+			  <small>Desarrollado por Angel Villalba</small>
+			</div>
+			<div class="footerRedesSociales">
+			  <a href="https://www.whatsapp.com/"><img src="../images/whatsapp.png" alt="whatsapp" class="footerWhatsapp"></a>
+			  <a href="https://www.facebook.com/"><img src="../images/facebook.png" alt="facebook" class="footerFacebook"></a>
+			  <a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="instagram" class="footerInstagram"></a>
+			</div>
+			<div class="footerPagos">
+				<img src="../images/tarjeta-de-credito.png" alt="pagos">
+				<img src="../images/mercadopago.png" alt="mercadopago">
+				<img src="../images/Mastercard-logo.svg.png" alt="mastercard">
+				<img src="../images/png-transparent-visa-debit-card-credit-card-logo-mastercard-visa-text-trademark-logo.png" alt="visa">
+			</div>
+		  </footer>
     
 </body>
 </html>
