@@ -16,7 +16,7 @@ a{
 header{
     display: flex;
     min-height: 70px;
-    background-color: rgb(85, 85, 201);
+    background-color: #969ba2;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -67,12 +67,15 @@ body{
     display: flex;
     justify-content: flex-end;
     font-weight: 500;
-    margin-left: 10vmin;
+    margin-left: auto;
+    margin-right: 30%;
 }
 
 .contenedorFraseIndex{
     display: flex;
     flex-direction: column;
+    background-color:  #77b1a9;
+    margin-top: -5px;
 }
 
 .uyuniInicio{
@@ -103,18 +106,6 @@ body{
     justify-content: center;
     margin-left: -8px;
     margin-right: -4px;
-}
-
-.suscripcionFrase{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 80px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    flex-wrap: wrap;
-    position: relative;
-
 }
 
 .suscripcionNombre{
@@ -263,7 +254,7 @@ span.nombre-paquete{
 
 
 .videoDescubrir{
-    
+
 }
 
 /*Contacto*/
@@ -379,7 +370,7 @@ option{
 .footer{
     display: grid;
     text-align: center;
-    background-color: rgb(85, 85, 201);
+    background-color: #969ba2;
     color: white;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -455,7 +446,7 @@ option{
 
     }
 
-    .FraseIndexGgm{
+    .fraseIndexGgm{
         display: flex;
         justify-content: flex-end;
         font-weight: 500;
@@ -466,19 +457,21 @@ option{
 }
 
 @media (min-width: 1200px){
-    .contenedorGeneralDescatados
-        width: 1170px;
+    .contenedorGeneralDestacados{
+    width: 1170px;
+}
 }
 
-@media (min-width: 992px){
-    .contenedorGeneralDescatados
-        width: 970px;
+@media (max-width: 992px){
+    .contenedorGeneralDestacados{
+    width: 530px;
+}
 }
 
-@media (min-width: 768px){
-.contenedorGeneralDescatados {
-    width: 750px;
-}
+@media (max-width: 576px){
+    .contenedorGeneralDestacados{
+        width: 420px;
+    }
 }
 
 @media (min-width: 992px){
