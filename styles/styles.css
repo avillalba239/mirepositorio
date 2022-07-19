@@ -251,6 +251,8 @@ span.nombre-paquete{
 
 
 .videoDescubrir{
+    display: flex;
+    margin: auto;
 
 }
 

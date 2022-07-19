@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubre</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Descubre</title>
 </head>
 <body>
     <header>
@@ -40,7 +41,7 @@
                 <div class="colm4"></div>
                 
         
-            
+        <div data-aos="flip-up">   
         <div class="PaqDestacados">
             <div class="paq-general">
                 <div class="tarjeta-destacada">
@@ -56,7 +57,7 @@
                         <a class="btn btn-destacado" href="https://www.babelviajes.com.ar/paquete/samana_desde_buenos_aires_enero_20_2024">Ver Más</a>
                 </div>
             </div>
-        
+            
             <div class="paq-general">
                 <div class="tarjeta-destacada">
                     <div class="img-destacada" style="background-image: url(../images/Playa\ Grande\ Choroni.jpg)"></div>
@@ -132,13 +133,14 @@
                 </div>
             </div>
         </div>
+    </div>
     </main>
         
     <section>
-        <div class="videoDescubrir">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jW7uajU93Zw" title="YouTube video player" frameborder="0" 
+        
+            <iframe class="videoDescubrir" width="560" height="315" src="https://www.youtube.com/embed/jW7uajU93Zw" title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+    
     </section>
     
 
@@ -159,6 +161,9 @@
             <img src="../images/png-transparent-visa-debit-card-credit-card-logo-mastercard-visa-text-trademark-logo.png" alt="visa">
         </div>
       </footer>  
-    
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
