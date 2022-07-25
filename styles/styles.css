@@ -78,11 +78,11 @@ body{
     margin-top: -5px;
 }
 
-.uyuniInicio{
+/*.uyuniInicio{
     width: 100%;
     height: 400px;
     background-size: cover;
-}
+}*/
 
 /*Suscripcion*/
 
@@ -140,13 +140,16 @@ body{
 
 /*PAQUETES DESTACADOS*/
 
+.carousel-inner{
+    height: 500px;
+}
 
 .paq_destacados{
-    margin-top: 100px;
+    margin-top: 100px!important;
 }
 
 
-.contenedorGeneralDestacados{
+.container{
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -172,7 +175,7 @@ body{
     padding-right: 15px;
 }
 
-.paq-general{
+.col-md-4{
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -200,6 +203,13 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     padding: 10px 20px 30px;
+}
+
+.tarjeta-destacada img {
+    width: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 span.nombre-paquete{
@@ -255,6 +265,31 @@ span.nombre-paquete{
     margin: auto;
 
 }
+
+/*Servicios*/
+
+.serviciosFondo{
+    background-image: url(../images/Fondo-Viajes.png);
+    width: 100%;
+    height: 840px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviciosVarios{
+    text-align: center;
+    width: 40%;
+    margin-top: 300px;
+}
+
+.serviciosVarios p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 
 /*Contacto*/
 
@@ -455,27 +490,57 @@ option{
      
 }
 
-@media (min-width: 1200px){
-    .contenedorGeneralDestacados{
+/*@media (min-width: 1200px){
+    .container{
     width: 1170px;
 }
 }
 
 @media (max-width: 992px){
-    .contenedorGeneralDestacados{
+    .container{
     width: 530px;
 }
 }
+*/
 
-@media (max-width: 576px){
-    .contenedorGeneralDestacados{
-        width: 420px;
+@media (max-width: 768px) {
+    .carousel-inner{
+        height: 350px!important;
     }
 }
 
+@media (max-width: 992px){
+    .carousel-inner{
+        height: 450px;
+    }
+}
+
+@media (min-width: 768px){
+    .col-md-4 {
+        width: 50%;
+        float: left;
+    }
+}
+    
+
+
 @media (min-width: 992px){
-.paq-general {
+.col-md-4 {
     width: 33.33333333%;
     float: left;
 }
 }
+
+@media (max-width: 992px){
+    .serviciosVarios{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 768px){
+    .serviciosVarios{
+        margin-top: 100px;
+        margin-left: 90px;
+    }
+}
+    
