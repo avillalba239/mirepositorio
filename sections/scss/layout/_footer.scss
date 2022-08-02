@@ -1,0 +1,45 @@
+/*footer*/
+
+.footer{
+    display: grid;
+    text-align: center;
+    background-color: #969ba2;
+    color: white;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "footerDerechos"
+                         "footerPagos"
+                         "footerRedes";
+                         margin-top: auto;
+                         min-height: auto;
+                        
+    }
+
+.footerDerechos{
+    grid-area: footerDerechos;
+    margin: -10px;
+    margin-top: 0px;
+}
+
+.footerRedesSociales{
+    grid-area: footerRedes;
+    display: flex;
+    justify-content: center;
+    }
+
+.footerRedesSociales a img{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.footerPagos{
+    grid-area: footerPagos;
+    width: 100%;
+}
+
+.footerPagos img{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}

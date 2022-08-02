@@ -1,0 +1,107 @@
+/*Contacto*/
+
+.contactoEncabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contactoSeccion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+/*Formulario de Contacto*/
+
+.containerFormularioGeneral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 136px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 23px;
+    flex-direction: row-reverse;
+
+}
+
+.formularioColumnas{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 12px 12px;
+    margin: 35px;
+    grid-template-areas: "formularioColumna1 formularioColumna2"
+                         "formularioColumna1 formularioColumna2";
+                         flex: 1 0 0%;
+                         margin-left: 170px;
+}
+
+.formularioColumna1{
+    grid-area: formularioColumna1;
+}
+
+.formularioColumna2{
+    grid-area: formularioColumna2;
+    margin-right: 200px;
+    padding-right: 10px;
+}
+
+label{
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+    color: #448f83;
+}
+
+input[type=text], select, textarea{
+    width: 20rem;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input, button, select, textarea{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    float: none;
+    margin: 0;
+    align-items: flex-start;
+    padding: 10px 10px;
+}
+
+select{
+    word-wrap: normal;
+}
+
+button, select{
+    text-transform: none;
+}
+
+option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0p 2p 1p;
+}
+
+.mapa{
+    display: flex;
+    margin-left: 50px;
+}

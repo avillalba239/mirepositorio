@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #969ba2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav{
+    a{
+        font-weight: 600;
+    padding-right: 70px;
+    text-decoration: none;
+    color: black;
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 60px;
+    margin-right: 10px;
+}

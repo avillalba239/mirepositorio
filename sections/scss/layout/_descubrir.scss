@@ -1,0 +1,134 @@
+/*PAQUETES DESTACADOS*/
+
+.carousel-inner{
+    height: 500px;
+}
+
+.carouselDescubrir{
+    div{
+        img{
+            height: auto;
+            max-height: 500px;
+        }
+    }
+}
+
+.paq_destacados{
+    margin-top: 100px;
+}
+
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.paq_destacados h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 45px 0 30px;
+    color: #4a4a4a;
+    font-weight: normal;
+    border-bottom: 0;
+}
+
+.colm4{
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 15px;
+}
+
+.col-md-4{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.tarjeta-destacada{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #fff;
+    margin: 20px 0 40px;
+    min-height: 450px;
+}
+
+.img-destacada{
+    background-size: cover;
+    height: 200px;
+}
+
+.info{
+    display: flex;
+    height: 214px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 20px 30px;
+}
+
+.tarjeta-destacada img {
+    width: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.nombre-paquete{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+
+.btn-destacado {
+    background: #214898;
+    width: 40%;
+    margin: auto;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 18px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 45px;
+    left: 30%;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+
+
+
+.videoDescubrir{
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+
+}

@@ -1,0 +1,100 @@
+
+/*media queries*/
+
+@media (max-width:992px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+        flex-direction: row;
+    }
+}
+
+
+@media (max-width:645px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+        flex-direction: row;    
+    }
+    
+    ul{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    li{
+        display: flex;
+
+    }
+
+    .fraseIndexGgm{
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 500;
+        margin: 0p 200p 30p 00p;
+        flex-direction: row;
+        }
+     
+}
+
+/*@media (min-width: 1200px){
+    .container{
+    width: 1170px;
+}
+}
+
+@media (max-width: 992px){
+    .container{
+    width: 530px;
+}
+}
+*/
+
+@media (max-width: 768px) {
+    .carousel-inner{
+        height: 350px;
+    }
+}
+
+@media (max-width: 992px){
+    .carousel-inner{
+        height: 450px;
+    }
+}
+
+@media (min-width: 768px){
+    .col-md-4 {
+        width: 50%;
+        float: left;
+    }
+}
+    
+
+
+@media (min-width: 992px){
+.col-md-4 {
+    width: 33.33333333%;
+    float: left;
+}
+}
+
+@media (max-width: 992px){
+    .serviciosVarios{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 768px){
+    .serviciosVarios{
+        margin-top: 100px;
+        margin-left: 90px;
+    }
+}

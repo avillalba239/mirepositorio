@@ -1,0 +1,87 @@
+/*INDEX*/
+
+.fraseIndex{
+    display: flex;
+    text-align: center;
+    margin: 15px 0px 10px 0px;
+    justify-content: center;
+}
+
+.FraseIndexGgm{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: 30%;
+}
+
+.contenedorFraseIndex{
+    display: flex;
+    flex-direction: column;
+    background-color:  #77b1a9;
+    margin-top: -5px;
+}
+
+.imgIndex{
+    height: auto;
+    max-height: 500px;
+}
+
+/*Suscripcion*/
+
+.suscripcion{
+    background: grey;
+    padding: 0px;
+    margin: unset;
+}
+
+.contenedorSuscripcion{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suscripcion2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -8px;
+    margin-right: -4px;
+}
+
+.suscripcionNombre{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+    position: relative;
+}
+
+.suscripcionNombre h4{
+    margin: unset;
+    text-align: right;
+    font-size: 24px;
+}
+
+.suscripcionBoton{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 1px;
+    position: relative;
+}
+
+.botonSuscripcion{
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 10px 30px;
+    background-image: none;
+}
+
+.frasemedia{
+    justify-content: center;
+    display: flex;
+}
