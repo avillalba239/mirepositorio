@@ -14,10 +14,10 @@ body {
 
 header {
   display: flex;
-  min-height: 70px;
   background-color: #969ba2;
   justify-content: space-between;
   align-items: center;
+  min-height: 70px;
   padding: 10px;
 }
 
@@ -31,7 +31,8 @@ nav a:hover {
   color: white;
 }
 
-ul {
+/*Solo para uso del extend porque no encontre donde usarlo con mas efectividad porque no tengo variables que pueda repetir*/
+.pruebaExtend, ul {
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -277,6 +278,53 @@ span.nombre-paquete {
   font-weight: bold;
 }
 
+.tour-box {
+  height: 400px;
+  background-size: cover;
+}
+
+.size-28{
+  font-size: 2.0rem !important;
+}
+
+.tour-box a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 20px 20px 20px 95px;
+  margin-top: 62px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.tour-box.bg01 a {
+  background: rgba(0, 0, 0, 0.5) left 20px center no-repeat;
+}
+
+.tour-box.bg02 a {
+  background: rgba(0, 0, 0, 0.5) left 20px center no-repeat;
+}
+
+.containerServicios {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.bg01 {
+  text-align: left;
+}
+
+.bg02 {
+  text-align: right;
+}
+
 /*Contacto*/
 .contactoEncabezado {
   display: flex;
@@ -457,18 +505,6 @@ option {
     flex-direction: row;
   }
 }
-/*@media (min-width: 1200px){
-    .container{
-    width: 1170px;
-}
-}
-
-@media (max-width: 992px){
-    .container{
-    width: 530px;
-}
-}
-*/
 @media (max-width: 768px) {
   .carousel-inner {
     height: 350px;

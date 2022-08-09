@@ -1,0 +1,64 @@
+/*Servicios*/
+
+.serviciosFondo{
+    background-image: url(../images/Fondo-Viajes.png);
+    width: 100%;
+    height: 840px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviciosVarios{
+    text-align: center;
+    width: 40%;
+    margin-top: 300px;
+}
+
+.serviciosVarios p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tour-box{
+    height: 400px;
+    background-size: cover;
+}
+.tour-box a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px 20px 20px 95px;
+    margin-top: 62px;
+    border-radius: 10px;
+    transition: .2s;
+}
+.tour-box.bg01 a{
+    background: rgba(0, 0, 0, 0.5) left 20px center no-repeat;
+}
+
+.tour-box.bg02 a{
+    background: rgba(0, 0, 0, 0.5) left 20px center no-repeat
+}
+
+.containerServicios{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.strong{
+    font-weight: bold;
+}
+
+.bg01{
+    text-align: left;
+}
+
+.bg02{
+    text-align: right;
+}

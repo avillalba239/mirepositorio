@@ -1,10 +1,20 @@
-header{
-    display: flex;
-    min-height: 70px;
+@mixin Header(){
+    display:flex;
+    
     background-color: #969ba2;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    
+}
+
+@mixin Header2($argumento1, $argumento2){
+    min-height: $argumento1;
+    padding: $argumento2;
+}
+
+header{
+    @include Header();
+    @include Header2(70px, 10px)
 }
 
 nav{
@@ -19,11 +29,15 @@ nav{
     }
 }
 
-
-ul{
+/*Solo para uso del extend porque no encontre donde usarlo con mas efectividad porque no tengo variables que pueda repetir*/
+.pruebaExtend{
     display: flex;
     text-decoration: none;
     list-style: none;
+}
+
+ul{
+    @extend .pruebaExtend;
 }
 
 .logo{
