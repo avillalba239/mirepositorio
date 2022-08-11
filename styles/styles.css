@@ -259,7 +259,7 @@ span.nombre-paquete {
 .serviciosFondo {
   background-image: url(../images/Fondo-Viajes.png);
   width: 100%;
-  height: 840px;
+  height: 1080px;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -281,10 +281,6 @@ span.nombre-paquete {
 .tour-box {
   height: 400px;
   background-size: cover;
-}
-
-.size-28{
-  font-size: 2.0rem !important;
 }
 
 .tour-box a {
@@ -323,6 +319,44 @@ span.nombre-paquete {
 
 .bg02 {
   text-align: right;
+}
+
+.quienesSomos {
+  background-color: rgba(17, 94, 83, 0.582);
+  height: auto;
+}
+
+.quienesSomosContenedor {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+  max-width: 1200;
+}
+
+.quienesSomosTexto {
+  font-size: 24px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 1px;
+}
+.quienesSomosTexto p {
+  margin-bottom: 25px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.carousel {
+  position: relative;
+}
+
+.quienesSomos img {
+  width: 780px;
+  height: 500px;
+  border-radius: 80px;
 }
 
 /*Contacto*/
@@ -531,10 +565,26 @@ option {
   .serviciosVarios {
     margin-top: 150px;
   }
+  .serviciosFondo {
+    width: 100%;
+    height: 800px;
+  }
 }
 @media (max-width: 768px) {
   .serviciosVarios {
     margin-top: 100px;
     margin-left: 90px;
+  }
+  .serviciosFondo {
+    width: 100%;
+    height: 600px;
+  }
+}
+@media (max-width: 1024px) {
+  .quienesSomosContenedor {
+    flex-direction: column;
+  }
+  .quienesSomos img {
+    height: 420px;
   }
 }/*# sourceMappingURL=styles.css.map */

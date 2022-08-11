@@ -1,0 +1,37 @@
+.quienesSomos{
+    background-color: rgba(17, 94, 83, 0.582);
+    height: auto;
+}
+
+.quienesSomosContenedor{
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    max-width: 1200;
+}
+
+.quienesSomosTexto{
+    font-size: 24px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 1px;
+    p{
+        margin-bottom: 25px;
+    }
+}
+
+.col-12{
+   width: 100%;
+}
+
+.carousel{
+    position: relative;
+}
+
+.quienesSomos img{
+    width: 780px;
+    height: 500px;
+    border-radius: 80px;
+}
