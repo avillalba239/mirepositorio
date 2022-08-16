@@ -13,12 +13,8 @@ body {
 }
 
 header {
-  display: flex;
   background-color: #969ba2;
-  justify-content: space-between;
-  align-items: center;
   min-height: 70px;
-  padding: 10px;
 }
 
 nav a {
@@ -31,6 +27,36 @@ nav a:hover {
   color: white;
 }
 
+/*@mixin Header(){
+    display:flex;
+
+    background-color: #969ba2;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@mixin Header2($argumento1, $argumento2){
+    min-height: $argumento1;
+    padding: $argumento2;
+}
+
+header{
+    @include Header();
+    @include Header2(70px, 10px)
+}
+
+nav{
+    a{
+        font-weight: 600;
+    padding-right: 70px;
+    text-decoration: none;
+    color: black;
+        &:hover{
+            color: white;
+        }
+    }
+}*/
 /*Solo para uso del extend porque no encontre donde usarlo con mas efectividad porque no tengo variables que pueda repetir*/
 .pruebaExtend, ul {
   display: flex;
@@ -354,8 +380,8 @@ span.nombre-paquete {
 }
 
 .quienesSomos img {
-  width: 780px;
-  height: 500px;
+  max-width: 780px;
+  height: 480px;
   border-radius: 80px;
 }
 

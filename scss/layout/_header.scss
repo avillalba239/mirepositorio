@@ -1,4 +1,21 @@
-@mixin Header(){
+header{
+    background-color: #969ba2;
+    min-height: 70px;
+}
+
+nav{
+    a{
+        font-weight: 600;
+        padding-right: 70px;
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+/*@mixin Header(){
     display:flex;
     
     background-color: #969ba2;
@@ -27,7 +44,7 @@ nav{
             color: white;
         }
     }
-}
+}*/
 
 /*Solo para uso del extend porque no encontre donde usarlo con mas efectividad porque no tengo variables que pueda repetir*/
 .pruebaExtend{

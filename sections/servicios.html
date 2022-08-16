@@ -22,32 +22,35 @@
 </head>
 <body>
   <header>
-      <a href="../index.html" class="logo">
-          <img src="../images/logoprueba5.jpg" alt="logo de vaTours" class="logo-img">
-      <!--<h2 class="VaTour"></h2>VaTours</h2>-->
-      <nav>
-          <ul>
-              <li>
-                    <a href="../index.html">INICIO</a>
-              </li>
-              <li>
-                    <a href="descubrir.html">DESCUBRIR</a>
-              </li>
-              <li>
-                    <a href="servicios.html">SERVICIOS</a>
-              </li>
-              <li>
-                    <a href="nosotros.html">NOSOTROS</a>
-              </li>
-              <li>
-                    <a href="contacto.html">CONTACTO</a>
-              </li>
-          </ul>
-      </nav>  
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">
+              <img src="../images/logoprueba5.jpg" alt="logo de vaTours" class="logo-img">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Elementos del menu colapsable-->
+
+          <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-Link active" href="../index.html">INICIO</a></li>
+                  <li class="nav-item"><a class="nav-Link" href="../sections/descubrir.html">DESCUBRIR</a></li>
+                  <li class="nav-item"><a class="nav-Link" href="../sections/servicios.html">SERVICIOS</a></li>
+                  <li class="nav-item"><a class="nav-Link" href="../sections/nosotros.html">NOSOTROS</a></li>
+                  <li class="nav-item"><a class="nav-Link" href="../sections/contacto.html">CONTACTO</a></li>
+              </ul>
+
+          </div>
+
+      </div>
+
+  </nav>
   </header>    
 
   <section>
-    <div class="serviciosFondo">
+    <div class="serviciosFondo container-fluid">
       <div class="serviciosVarios">
         <!--<p>Podemos crear tu viaje soñado,desde el más sencillo al más exclusivo, personalizado con el mejor servicio. Nos especializamos en armar itinerarios y convertir destinos en experiencias memorables.</p>-->
       </div>
