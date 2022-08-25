@@ -7,9 +7,9 @@
 /*font-family: 'Inconsolata', monospace;*/
 body {
   font-family: "Inconsolata", monospace;
-  margin: 0;
   background-color: whitesmoke;
   background-size: 100%;
+  max-width: 100%;
 }
 
 header {
